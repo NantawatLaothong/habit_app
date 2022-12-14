@@ -1,0 +1,11 @@
+three steps to run flask
+Step 1-2
+    export FLASK_APP=app.py || export FLASK_debug=true || export FLASK_PORT_RUN=7089
+Step 3
+    flask run
+
+
+Jinja
+    from flask import Flask, render_template
+    render_template('filename', jinja-variable="")
+    {{ Jinja-variable }}
